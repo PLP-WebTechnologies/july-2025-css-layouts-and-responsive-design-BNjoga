@@ -1,51 +1,26 @@
-# 🧩 Assignment: CSS Layouts & Responsive Web Design
+# Responsive HTML & CSS Project
 
-## Overview
+This project contains two files:
 
-In this assignment, you'll learn how to bring structure, flexibility, and responsiveness to your web pages using modern CSS layout techniques—**Flexbox** and **Grid**. You'll also apply **Responsive Web Design (RWD)** principles to ensure your page adapts beautifully across screen sizes and devices.
+- **index.html** → Holds the structure of the webpage.  
+- **style.css** → Adds styling, layout, and responsiveness.  
 
-## Objective
+## How It Works
 
-Build a responsive multi-section webpage that uses **Flexbox** and **CSS Grid** for layout and demonstrates how content adjusts across mobile, tablet, and desktop views. You'll showcase your ability to align and position content with precision, using media queries and flexible units to enhance the user experience on any device.
+### index.html
+- Uses **HTML5 semantic tags** like `<header>`, `<section>`, and `<footer>`.  
+- The **header** has navigation links.  
+- The **hero section** shows the title and a call-to-action button.  
+- The **projects section** displays items in a grid.  
+- The **footer** shows copyright text and links.  
 
-## What You’ll Practice
+### style.css
+- Uses **Flexbox** to align items in the header and footer.  
+- Uses **CSS Grid** to arrange project cards.  
+- Adds **colors, padding, and hover effects** for design.  
+- Includes **media queries** so the layout changes on smaller screens (tablet and mobile).  
 
-* Structuring content using Flexbox for 1D layouts (rows or columns)
-* Using CSS Grid for complex 2D layouts
-* Applying responsive design techniques using media queries and relative units (`%, rem`, `vw`, etc.)
-* Creating layouts that gracefully adapt to different screen sizes without breaking
-
-## Instructions
-
-Create a responsive webpage that contains multiple sections—such as a header, navigation bar, content area, sidebar, and footer. You are encouraged to use Flexbox in one part of the page and Grid in another (e.g., Grid for the main layout and Flexbox for cards or navigation alignment).
-
-Make sure your layout:
-
-* Looks good on **desktop**, **tablet**, and **mobile**
-* Uses media queries to adjust column layout, spacing, or visibility
-* Demonstrates thoughtful content placement using both layout models
-
-Avoid using any CSS frameworks or libraries—build everything with raw CSS.
-
-## Deliverables
-
-Submit the following:
-
-* `index.html`: Your HTML5 structure
-* `style.css`: Your responsive CSS file with Flexbox, Grid, and media queries
-
-The code should demonstrate:
-
-* Clear use of Flexbox and Grid
-* Responsiveness with proper breakpoints
-* Clean, maintainable CSS structure with helpful comments
-
-## Tips
-
-* Effective use of Flexbox and CSS Grid layout techniques
-* Visual clarity and logical content flow across screen sizes
-* Proper use of media queries and responsive units
-* Code readability, organization, and best practices
-* Creativity and attention to layout detail
-
-
+## Running the Project
+1. Keep both `index.html` and `style.css` in the same folder.  
+2. Open `index.html` in your browser.  
+3. Resize the browser window to see the responsive design in action.  
